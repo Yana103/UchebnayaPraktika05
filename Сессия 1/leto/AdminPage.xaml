@@ -1,0 +1,53 @@
+﻿<Page x:Class="leto.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:leto"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminPage" IsVisibleChanged="Page_IsVisibleChanged">
+
+    <Grid Background="#FF3294BA">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 10">
+            <Label Content="Office:" FontSize="24" Margin="10 0" Foreground="#FFF1F1F2" FontWeight="DemiBold" FontFamily="TeX Gyre Adventor"/>
+            <ComboBox Name="cb_office" SelectionChanged="cb_office_SelectionChanged" DisplayMemberPath="Title" FontSize="24" VerticalAlignment="Center" Margin="10 0" Width="150" Foreground="#064b66" FontWeight="DemiBold" FontFamily="TeX Gyre Adventor">
+            </ComboBox>
+        </StackPanel>
+        <DataGrid Name="DGridOffices" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="2" Margin="20 0" BorderThickness="2" FontSize="24" FontWeight="ExtraLight" FontFamily="TeX Gyre Adventor">
+            <DataGrid.ItemContainerStyle>
+                <Style TargetType="DataGridRow">
+                    <!--<Setter Property="Background" Value="White"/>-->
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding RoleID}" Value="1">
+                            <Setter Property="Background" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Active}" Value="False">
+                            <Setter Property="Background" Value="LightPink"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.ItemContainerStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding FirstName}" Width="0.5*"/>
+                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="0.5*"/>
+                <DataGridTextColumn Header="Age" Binding="{Binding Birthdate, StringFormat=d}" Width="0.5*"/>
+                <DataGridTextColumn Header="User Role" Binding="{Binding Role.Title}" Width="*"/>
+                <DataGridTextColumn Header="Email Adress" Binding="{Binding Email}" Width="auto"/>
+                <DataGridTextColumn Header="Office" Binding="{Binding Office.Title}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0 10">
+            <Button Content="Change Role" Name="cnhg_rl_btn" Click="cnhg_rl_btn_Click" FontSize="24" Margin="10 0" Padding="0 5" Foreground="#FF064B66" Background="#FFF97805" Width="200" Height="50" FontWeight="DemiBold" FontFamily="TeX Gyre Adventor"/>
+            <Button Content="Enable/Disable Login" Name="onoff_btn" Click="onoff_btn_Click" FontSize="24" Margin="10 0" Padding="0 5" Foreground="#FF064B66" Background="#FFF97805" Width="250" Height="50" FontWeight="DemiBold" FontFamily="TeX Gyre Adventor"/>
+        </StackPanel>
+        <Button Content="Refresh" Name="refresh_btn" Click="refresh_btn_Click" FontSize="24" Margin="10 0" Padding="0 5" HorizontalAlignment="Right" Foreground="#FF064B66" Background="#FFF97805" Width="250" Height="50" FontWeight="DemiBold" FontFamily="TeX Gyre Adventor" Grid.Row="6" Grid.Column="1"/>
+    </Grid>
+</Page>

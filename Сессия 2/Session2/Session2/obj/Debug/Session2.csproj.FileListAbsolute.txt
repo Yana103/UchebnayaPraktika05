@@ -1,0 +1,84 @@
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\Session2.exe.config
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\Session2.exe
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\Session2.pdb
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.SuggestedBindingRedirects.cache
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\MainWindow.g.cs
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\App.g.cs
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2_MarkupCompile.cache
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2_MarkupCompile.lref
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\MainWindow.baml
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.g.resources
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.Properties.Resources.resources
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.GenerateResource.cache
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.CoreCompileInputs.cache
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.exe
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.pdb
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\App.baml
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.dll
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.SqlServer.dll
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.xml
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.SqlServer.xml
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\bin\Debug\ru\EntityFramework.resources.dll
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2_Content.g.cs
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.CopyComplete
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Edit.g.cs
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Edit.baml
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Import.g.cs
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Import.baml
+E:\AIgor\Колледж\Python ЯЗЫКИ ТАМ Егоров\УчеБНКАЯ ПРаКТиК 3 курс\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.AssemblyReference.cache
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\Session2.exe.config
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\Session2.exe
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\Session2.pdb
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.dll
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.xml
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.AssemblyReference.cache
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Edit.g.cs
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Import.g.cs
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\MainWindow.g.cs
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\App.g.cs
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2_Content.g.cs
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2_MarkupCompile.cache
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2_MarkupCompile.lref
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\App.baml
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Edit.baml
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Import.baml
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\MainWindow.baml
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.g.resources
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.Properties.Resources.resources
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.GenerateResource.cache
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.CoreCompileInputs.cache
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.CopyComplete
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.exe
+C:\Users\Shapito\Desktop\Сессия 2\Session2\Session2\obj\Debug\Session2.pdb
+D:\Сессия 2\Session2\Session2\bin\Debug\Session2.exe.config
+D:\Сессия 2\Session2\Session2\bin\Debug\Session2.exe
+D:\Сессия 2\Session2\Session2\bin\Debug\Session2.pdb
+D:\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.dll
+D:\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.xml
+D:\Сессия 2\Session2\Session2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Сессия 2\Session2\Session2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.AssemblyReference.cache
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.SuggestedBindingRedirects.cache
+D:\Сессия 2\Session2\Session2\obj\Debug\Edit.g.cs
+D:\Сессия 2\Session2\Session2\obj\Debug\Import.g.cs
+D:\Сессия 2\Session2\Session2\obj\Debug\MainWindow.g.cs
+D:\Сессия 2\Session2\Session2\obj\Debug\App.g.cs
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2_Content.g.cs
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2_MarkupCompile.cache
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2_MarkupCompile.lref
+D:\Сессия 2\Session2\Session2\obj\Debug\App.baml
+D:\Сессия 2\Session2\Session2\obj\Debug\Edit.baml
+D:\Сессия 2\Session2\Session2\obj\Debug\Import.baml
+D:\Сессия 2\Session2\Session2\obj\Debug\MainWindow.baml
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.g.resources
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.Properties.Resources.resources
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.GenerateResource.cache
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.CoreCompileInputs.cache
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.csproj.CopyComplete
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.exe
+D:\Сессия 2\Session2\Session2\obj\Debug\Session2.pdb

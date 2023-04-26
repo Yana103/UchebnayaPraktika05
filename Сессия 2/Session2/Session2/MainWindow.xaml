@@ -1,0 +1,96 @@
+﻿<Window x:Class="Session2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Session2" IsVisibleChanged="Window_IsVisibleChanged"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Manage Flight Schedules" Height="750" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Style="{StaticResource BorderMain}">
+            <StackPanel HorizontalAlignment="Center">
+                <DockPanel Height="50" Margin="10">
+                    <DockPanel Width="320" Margin="10">
+                        <TextBlock Text="From" FontSize="20" Margin="33 0"/>
+                        <ComboBox x:Name="FromRoute" DisplayMemberPath="IATACode" FontSize="20"/>
+                    </DockPanel>
+                    <DockPanel Width="320" Margin="50 10 0 10">
+                        <TextBlock Text="To" Style="{StaticResource TextMain}"/>
+                        <ComboBox x:Name="ToRoute" DisplayMemberPath="IATACode" FontSize="20"/>
+                    </DockPanel>
+                    <DockPanel Width="320" Margin="10">
+                        <TextBlock Text="Sort by" Style="{StaticResource TextMain}"/>
+                        <ComboBox x:Name="SortBy" FontSize="20">
+                            <TextBlock Text="Date-time"/>
+                            <TextBlock Text="Economy price"/>
+                            <TextBlock Text="Confirmed"/>
+                        </ComboBox>
+                    </DockPanel>
+                </DockPanel>
+                <DockPanel Height="50" Margin="10">
+                    <DockPanel Width="320" Margin="10">
+                        <TextBlock Text="Outbound" Style="{StaticResource TextMain}"/>
+                        <DatePicker x:Name="OutboundRoute" FontSize="17"/>
+                    </DockPanel>
+                    <DockPanel Width="320" Margin="50 10 0 10">
+                        <TextBlock Text="Flight Number" Style="{StaticResource TextMain}"/>
+                        <ComboBox x:Name="FlightNumber" DisplayMemberPath="FlightNumber" FontSize="20"/>
+                    </DockPanel>
+                    <Button x:Name="ApplyBtn" Click="ApplyBtn_Click" Content="Apply" Style="{StaticResource ApplyMain}"/>
+                </DockPanel>
+            </StackPanel>
+        </Border>
+        <Rectangle Fill="White" Grid.Row="0" Height="10" Width="90" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="35 15"/>
+        <TextBlock FontSize="20" Text="Filter by" Height="30" Width="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40 5"/>
+        <DataGrid x:Name="OutputAirlines" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True" Margin="20 0" FontSize="20">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" Width="100" Binding="{Binding Date, StringFormat=d}"/>
+                <DataGridTextColumn Header="Time" Width="100" Binding="{Binding Time}"/>
+                <DataGridTextColumn Header="From" Width="110" Binding="{Binding Routes.Airports.IATACode}"/>
+                <DataGridTextColumn Header="To" Width="110" Binding="{Binding Routes.Airports1.IATACode}"/>
+                <DataGridTextColumn Header="Flight number" Width="140" Binding="{Binding FlightNumber}"/>
+                <DataGridTextColumn Header="Aircraft" Width="110" Binding="{Binding Aircrafts.Name}"/>
+                <DataGridTextColumn Header="Economy price" Width="145" Binding="{Binding EconomyPrice, StringFormat=c}"/>
+                <DataGridTextColumn Header="Business price" Width="145"/>
+                <DataGridTextColumn Header="First class price" Width="*"/>
+            </DataGrid.Columns>
+            <DataGrid.ItemContainerStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="White"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Confirmed}" Value="False">
+                            <Setter Property="Background" Value="Red"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.ItemContainerStyle>
+        </DataGrid>
+        <DockPanel Grid.Row="2" VerticalAlignment="Top" Margin="20 0">
+            <DockPanel HorizontalAlignment="Left">
+                <Button x:Name="CancelBtn" Click="CancelBtn_Click" Width="160" Margin="10">
+                    <DockPanel>
+                        <Image Source="/Resources/cancel.png" Width="20" Height="20"/>
+                        <TextBlock Text="Cancel Flight" FontSize="20" VerticalAlignment="Center" Margin="5"/>
+                    </DockPanel>
+                </Button>
+                <Button x:Name="EditBtn" Click="EditBtn_Click" Width="140" Margin="10">
+                    <DockPanel>
+                        <Image Source="/Resources/edit.png" Width="20" Height="20"/>
+                        <TextBlock Text="Edit Flight" FontSize="20" VerticalAlignment="Center" Margin="5"/>
+                    </DockPanel>
+                </Button>
+            </DockPanel>
+            <Button x:Name="ImportBtn" Click="ImportBtn_Click" Width="220" Margin="10" HorizontalAlignment="Right">
+                <DockPanel>
+                    <Image Source="/Resources/import.png" Width="20" Height="20"/>
+                    <TextBlock Text="Import Changes" FontSize="20" VerticalAlignment="Center" Margin="5"/>
+                </DockPanel>
+            </Button>
+        </DockPanel>
+    </Grid>
+</Window>
